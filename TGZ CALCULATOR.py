@@ -5,7 +5,7 @@ import tkinter.messagebox as mb
 import ctypes
 
 main = Tk()
-ctypes.windll.shcore.SetProcessDpiAwareness(1)
+#ctypes.windll.shcore.SetProcessDpiAwareness(1) #Enable this on high DPI Displays
 main.tk.call('tk', 'scaling', 1.0)
 main.geometry('250x400+550+100')
 main.title("TGZ Calculator")
